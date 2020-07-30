@@ -5,11 +5,11 @@ This project was created for the purpose of the Treehouse Full Stack JavaScript 
 ### Tools/skills used:
 <ul>
 <li>JavaScript</li>
-<li>SQL ORM Sequelize<li/>
-<li>Express<li/>
-<li>Pug<li/>
-<li>Node.js<li/>
-<ul/>
+<li>SQL ORM Sequelize</li>
+<li>Express</li>
+<li>Pug</li>
+<li>Node.js</li>
+</ul>
 
 ### HTML/CSS
 Project uses supplied styles.
