@@ -2,18 +2,18 @@
 This web app is for a fictional library to help them manage their collection of books.
 This project was created for the purpose of the Treehouse Full Stack JavaScript Techdegree.
 
-## Tools/skills used:
+### Tools/skills used:
 JavaScript<br/>
 SQL ORM Sequelize<br/>
 Express<br/>
 Pug<br/>
 Node.js<br/>
 
-## HTML/CSS
+### HTML/CSS
 Project uses supplied styles.
 General layout matches example markup pages.
 
-## Downloading/Installing
+### Downloading/Installing
 <strong>Step 1</strong><br/>
 Click on the 'Clone or download' button and select 'Download Zip.'
 
@@ -24,12 +24,10 @@ Unzip the zip file.
 Open the folder in a text editor.
 
 <strong>Step 4</strong><br/>
-npm install<br/>
-In the terminal, install dependencies<br/>
+Use npm install to install all the dependencies<br/>
 
 <strong>Step 5</strong><br/>
-npm start<br/>
-Start the app<br/>
+Use npm start to start the app<br/>
 
 <strong>Step 6</strong><br/>
 View the website<br/>
