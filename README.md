@@ -16,21 +16,17 @@ Project uses supplied styles.
 General layout matches example markup pages.
 
 ### Downloading/Installing
-<strong>1.</strong>
-Click on the 'Clone or download' button and select 'Download Zip.'
+<ol>
+  <li>Click on the <strong>'Clone or download'</strong> button and select <strong>'Download Zip.'</strong></li>
 
-<strong>2.</strong>
-Unzip the zip file.
+<li>Unzip the zip file.</li>
 
-<strong>3.</strong>
-Open the folder in a text editor.
+<li>Open the folder in a text editor.</li>
 
-<strong>4.</strong>
-Use npm install to install all the dependencies<br/>
+<li>Use <strong>npm install</strong> to install all the dependencies</li>
 
-<strong>5.</strong>
-Use npm start to start the app<br/>
+<li>Use <strong>npm start</strong> to start the app</li>
 
-<strong>6.</strong>
-View the website: http://localhost:3000/
+<li>View the website: http://localhost:3000/</li>
+</ol>
 
