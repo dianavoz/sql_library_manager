@@ -11,22 +11,17 @@ This project was created for the purpose of the Treehouse Full Stack JavaScript 
 <li>Node.js</li>
 </ul>
 
-### HTML/CSS
-Project uses supplied styles.
+### Styles
+The project uses supplied styles.
 General layout matches example markup pages.
 
-### Downloading/Installing
-<ol>
-  <li>Click on the <strong>'Clone or download'</strong> button and select <strong>'Download Zip.'</strong></li>
 
-<li>Unzip the zip file.</li>
-
-<li>Open the folder in a text editor.</li>
-
-<li>Use <strong>npm install</strong> to install all the dependencies</li>
-
-<li>Use <strong>npm start</strong> to start the app</li>
-
-<li>View the website: http://localhost:3000/</li>
-</ol>
+### Usage
+<pre>Clone or download the project</pre>
+Install all required dependencies
+<pre>npm install</pre>
+Start the express server with
+<pre>npm start</pre>
+View the website
+<pre>http://localhost:3000/</pre>
 
