@@ -1,0 +1,33 @@
+extends layout
+block head
+  title= title
+block content
+    a(href="/") 
+     h1 Books
+    div.container
+        p
+          a.button(href='/books/new') Create New Book
+        form.search(action='/books', method='post')
+            input.search(type='text', name='search', placeholder='Search for a book...')
+            input#searchSubmit(type='submit', value='Search')
+    table
+      thead
+          tr
+            th Title
+            th Author
+            th Genre
+            th Year
+      tbody
+        each book in books
+          - const {id, title, author, genre, year} = book;
+            tr
+              td
+                a(href=`/books/${id}`)= title
+              td= author
+              td= genre
+              td= year
+    div.pagination
+        ul
+          -for(let i=1; i<=pageNumber; i++) 
+              li 
+                a(class=(parseInt(currentPage) === i) ? 'active' : '', href=`/books?page=${i}`)= i

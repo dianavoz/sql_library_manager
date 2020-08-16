@@ -7,6 +7,7 @@ a {
   color: #019875;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
   transition: 0.4s;
 }
 
@@ -19,7 +20,7 @@ a.button, input[type=submit] {
   background: #019875;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   padding: 10px 14px 12px;
-  font-size: 14px;
+  font-size: 18px;
   border-radius: 2px;
   cursor: pointer;
 }
@@ -54,9 +55,11 @@ h2 {
 }
 
 th {
-  border-bottom: 2px solid #D8B493;
+  border-bottom: 2px solid rgba(216, 180, 147, 1);
   text-align: left;
   padding: 5px 20px 5px 10px;
+  color: #777;
+  font-weight: bold;
 }
 
 tr {
@@ -73,6 +76,7 @@ td {
 
 label {
   font-weight: bold;
+  color: #777;
   min-width: 130px;
   display: inline-block;
   transition: 0.4s;
@@ -81,7 +85,8 @@ label {
 input {
   padding: 10px;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  color: #777;
   border-radius: 2px;
   border-color: #E7E7E7;
   transition: 0.4s;
@@ -94,4 +99,53 @@ input[type=text] {
 
 .error {
   color: rgb(236, 15, 15);
+}
+
+form.search {
+  display:inline;
+}
+
+input#searchSubmit {
+  margin-left: 0px;
+}
+
+
+.container p {
+  display: inline;
+  margin-right: 20px;
+}
+
+table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+.pagination li {
+  display: inline-block; 
+}
+
+.pagination a {
+  color: #777;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.pagination a.active {
+  background-color: #01b189;
+  color: white;
+  border: 1px solid #01b189;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+a h1 {
+  cursor: pointer;
+}
+
+h1 {
+  color: #777;
 }
